@@ -1,0 +1,31 @@
+.header {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.header__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+
+.header__announcment {
+    justify-self: center;
+}
+
+.header__navigation {
+    justify-self: end;
+}
+
+.navigation__link_netflix {
+    background-image: url('../img/netflix.svg');
+    
+}
+
+.navigation__link_okko {
+    background-image: url('../img/okko.svg');
+}
+
+.navigation__link_kinopoisk {
+    background-image: url('../img/kinopoisk.svg');
+}
