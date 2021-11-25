@@ -27,14 +27,24 @@
     background-color: transparent;
     border: 1px solid transparent;
     color: #fff;
+    transition: color .2s ease-in,
+        background-color .3s ease-in,
+        border-color .3s ease-in;
+    outline: none;
 }
 
 .product__btn-buy:active {
-    background: #B3B3B3;
+    color: #B3B3B3;
+    background-color: rgba(255, 255, 255, 0.19);
 }
 
 .product__btn-buy:hover {
     background-color: rgba(255, 255, 255, 0.19);
+}
+
+.product__btn-buy:focus {
+    background-color: rgba(255, 255, 255, 0.19);
+    border-color: #9B9B9B;
 }
 
 .product__btn-icon {
