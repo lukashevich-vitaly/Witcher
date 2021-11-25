@@ -53,9 +53,10 @@ iframe {
 }
 
 .container {
-    max-width: 1110px;
+    max-width: 1172px;
     margin-left: auto;
     margin-right: auto;
+    padding: 0 31px;
 }
 
 @media (min-height: 900px) {
@@ -64,5 +65,26 @@ iframe {
         flex-direction: column;
         padding-bottom: 50px;
         max-height: 1400px;
+    }
+}
+
+@media (min-height: 1000px) {
+    .body {
+        font-size: 16px;
+    }
+}
+
+@media (min-height: 850px) {
+    .container {
+        padding: 0 39px;
+    }
+}
+
+@media (min-height: 480px) {
+    .body {
+        font-size: 14px;
+    }
+    .container {
+        padding: 0 15px;
     }
 }
