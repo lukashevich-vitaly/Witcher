@@ -5,7 +5,7 @@
 
 .header__container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
 }
 
@@ -17,23 +17,20 @@
     justify-self: end;
 }
 
-.navigation__link_netflix {
-    background-image: url('../img/netflix.svg');
-    
-}
+@media (max-width: 750px) {
+    /*.header {
+        padding-top: 15px;
+    }*/
 
-.navigation__link_okko {
-    background-image: url('../img/okko.svg');
-}
-
-.navigation__link_kinopoisk {
-    background-image: url('../img/kinopoisk.svg');
+    .header__container {
+        grid-template-columns: 60px 1fr 60px;
+    }
 }
 
 @media (min-height: 480px) {
-    .header {
+    /*.header {
         padding-top: 15px;
-    }
+    }*/
 
     .header__container {
         grid-template-columns: 45px 1fr 45px;

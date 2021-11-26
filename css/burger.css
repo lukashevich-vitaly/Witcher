@@ -2,9 +2,8 @@
     --width: 24px;
     --height: 12px;
     --color: #fff;
-    --size: 2px;
+    --size-line: 2px;
     position: relative;
-    display: block;
     width: var(--width);
     height: var(--height);
     background-color: transparent;
@@ -15,9 +14,10 @@
 .burger__line {
     position: absolute;
     left: 0;
+    right: 0;
     top: 50%;
-    width: 100%;
-    height: var(--size);
+    /*width: 100%;*/
+    height: var(--size-line);
     background-color: var(--color);
     transform: translateY(-50%);
     transition: transform .3s;
@@ -27,18 +27,21 @@
     content: '';
     position: absolute;
     left: 0;
-    width: 100%;
-    height: var(--size);
+    right: 0;
+    height: var(--size-line);
     background-color: var(--color);
-    transition: transform .3s, top .3s;
 }
 
 .burger:before {
-     top: 0;
+    top: 0;
 }
 
 .burger:after {
-    top: calc(100% - var(--size));
+    top: calc(100% - var(--size-line));
+}
+
+.burger_active .burger__line {
+    transform: scale(0);
 }
 
 .burger_active:before {
@@ -49,8 +52,4 @@
 .burger_active:after {
     top: 50%;
     transform: rotate(-45deg);
-}
-
-.burger_active .burger__line {
-    transform: scale(0);
 }

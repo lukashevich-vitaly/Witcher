@@ -24,6 +24,20 @@
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.7);
 }
 
+.navigation__link_netflix {
+    background-image: url('../img/netflix.svg');
+    
+}
+
+.navigation__link_okko {
+    background-image: url('../img/okko.svg');
+}
+
+.navigation__link_kinopoisk {
+    background-image: url('../img/kinopoisk.svg');
+}
+
+
 .navigation__btn {
     display: none;
 }
