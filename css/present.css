@@ -30,6 +30,25 @@
     margin-bottom: 30px;
 }
 
+@media (max-width: 1000px) {
+    .present {
+        padding-top: 25px;
+    }
+
+    .present__hero {
+        margin-bottom: 10px;
+    }
+
+    .present__title {
+        font-size: 70px;
+    }
+
+    .present__tagline {
+        max-width: 290px;
+        margin-bottom: 28px;
+    }
+}
+
 @media (min-height: 900px) {
     .present {
         flex-grow: 1;
@@ -43,5 +62,6 @@
         flex-direction: column;
         justify-content: space-around;
         width: 100%;
+        max-height: 1100px;
     }
 }
