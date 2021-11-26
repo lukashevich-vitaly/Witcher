@@ -119,4 +119,12 @@
     .present__tagline {
         max-width: 193px;
     }
+
+    
+}
+
+@media (max-width: 320px) {
+    .tabs__control {
+        margin: 0 auto 20px;
+    }
 }
