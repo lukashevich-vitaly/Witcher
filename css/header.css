@@ -18,21 +18,17 @@
 }
 
 @media (max-width: 750px) {
-    /*.header {
-        padding-top: 15px;
-    }*/
-
     .header__container {
         grid-template-columns: 60px 1fr 60px;
     }
 }
 
-@media (min-height: 480px) {
-    /*.header {
-        padding-top: 15px;
-    }*/
-
+@media (max-width: 480px) {
     .header__container {
         grid-template-columns: 45px 1fr 45px;
+    }
+
+    .header__announcment {
+        font-size: 12px;
     }
 }

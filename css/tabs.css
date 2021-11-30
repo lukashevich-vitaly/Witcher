@@ -76,4 +76,8 @@
         padding: 10px 30px;
         margin-bottom: 20px;
     }
+
+    .tabs__btn {
+        font-size: 12px;
+    } 
 }

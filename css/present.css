@@ -27,6 +27,15 @@
     background-size: cover;
 }
 
+.present__btn:active {
+    box-shadow: -4px 6px 10px rgba(10, 10, 10, 0.51);
+}
+
+.present__btn:hover {
+    box-shadow: -4px 6px 10px rgba(10, 10, 10, 0.51);
+}
+
+
 .present__hero {
     margin-bottom: 30px;
 }
