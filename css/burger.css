@@ -16,7 +16,6 @@
     left: 0;
     right: 0;
     top: 50%;
-    /*width: 100%;*/
     height: var(--size-line);
     background-color: var(--color);
     transform: translateY(-50%);

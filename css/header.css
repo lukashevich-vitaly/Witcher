@@ -21,6 +21,14 @@
     .header__container {
         grid-template-columns: 60px 1fr 60px;
     }
+
+    .navigation__list {
+        display: none;
+    }
+
+    .navigation__btn {
+        display: block;
+    }
 }
 
 @media (max-width: 480px) {
