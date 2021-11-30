@@ -1,3 +1,7 @@
+.card:hover {
+    box-shadow: -4px 6px 10px rgba(15, 10, 10, 0.51);
+}
+
 .card_video {
     flex-basis: 285px;
 }
